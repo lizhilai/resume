@@ -1,0 +1,137 @@
+
+* {
+    font-family: fontello;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: 'fontello';*/
+}
+
+body {
+    background-color: #ddd;
+    position: relative;
+}
+.main {
+    width: 960px;
+    height: 1286px;
+    position: relative;
+    margin: 20px auto;
+    box-shadow: 0px 1px 6px #000;
+}
+.left {
+    width: 290px;
+    height: inherit;
+    position: absolute;  /*..............*/
+    left: 0px;
+    top: 0px;
+    background-color: #ccc;
+    padding: 20px;
+}
+.right {
+    width: 670px;
+    height: inherit;
+    position: absolute;  /*..............*/
+    right: 0px;
+    top: 0px;
+    background-color: #eee;
+}
+.image-container {
+    width: 250px;  /* 290 - 20 - 20*/
+    text-align: center;
+    margin-top: 30px;
+}
+.image-container > img {
+    width: 160px;
+    border-radius: 20px;
+}
+.image-container > span {
+    display: block;
+}
+.left-info {
+    list-style: none;
+    margin-top: 20px;
+}
+.left-info li + li {
+    margin-top: 40px;
+}
+.left-info dt {
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    font-weight: 700;
+    padding: 5px 0px;
+}
+.left-info dd {
+    font-size: 14px;
+    padding: 5px 0px;
+    /*margin: 5px 0px;*/
+    border-bottom: 1px solid black;
+    position: relative;
+}
+.left-info .left-info-item-title {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 20px;
+}
+.left-info .left-info-item-content {
+    margin-left: 84px;
+}
+.right {
+    padding: 40px 20px;
+}
+.right-info > li {
+
+}
+.right ul {
+    list-style: none;
+}
+.right h2 {
+    border-bottom: 1px solid black;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+}
+.right-info ul {
+    margin-left: 40px;
+}
+.skill li {
+    margin-bottom: 20px;
+}
+.project li {
+    margin-bottom: 20px;
+}
+.aside {
+    list-style: none;
+    text-decoration: none;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*.aside > li {
+    padding: 10px 30px 10px 10px;
+    background-color: #00CC99;
+    border-radius: 1px 0px 0px 1px;
+}*/
+.aside a {
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    display: block;
+    background-color: #999;
+    padding: 0px 0px 0px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px 0px 0px 10px;
+    box-shadow: 0px 0px 10px #888;
+    transition: text-indent 0.5s;
+}
+.aside a:hover {
+    text-indent: 10px;
+    transition: text-indent 0.5s;
+}
+.aside li {
+    margin-bottom: 10px;
+}
